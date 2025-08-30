@@ -1,9 +1,105 @@
-aspect,summary,sentiment,menu,restaurant
-Taste & Flavor,The dish has a satisfying flavor with tender beef and a well-balanced black sauce made from broth and soy sauce.,Positive,Gyu Tamago Don,Sushi Groove
-Portion Size,"The portion is large and considered satisfying, especially when the beef portion is larger.",Positive,Gyu Tamago Don,Sushi Groove
-Additional Ingredients,"Japanese pickled vegetables and nori add good texture and crunch, enhancing the overall experience.",Positive,Gyu Tamago Don,Sushi Groove
-Taste,"The taste is enjoyable, particularly due to the generous tobiko topping.",Positive,California Roll,Sushi Groove
-Flavor Intensity,The avocado flavor could be more intense for better satisfaction.,Negative,California Roll,Sushi Groove
-Freshness,The salmon is fresh and cut thick.,Positive,Salmon Lover,Sushi Groove
-Taste & Enjoyability,The dish is enjoyable even when not hot or melted.,Positive,Rock&Roll,Sushi Groove
-Popularity,Sushi Groove is currently the favorite sushi brand.,Positive,Sushi Groove,Sushi Groove
+aspect,summary,sentiment,menu,restaurant,restaurant_location
+Taste & Flavor,The sushi is delicious with a good variety of menu options.,Positive,sushi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-slipi
+Portion Size,The portions are perfectly sized.,Positive,sushi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-slipi
+Taste & Flavor,"The sauce is tasty and bold with good consistency, and the chicken is extremely delicious and crispy.",Positive,Salted Egg Chicken,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-setiabudi
+Texture,"The chicken is extremely crispy, the rice is very fluffy, and the koja leaves add texture.",Positive,Salted Egg Chicken,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-setiabudi
+Cooking Quality,The soft-boiled egg is well-cooked and seasoned properly.,Positive,Salted Egg Chicken,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-setiabudi
+Overall Impression,The dish is excellent.,Positive,Salted Egg Chicken,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-setiabudi
+Taste & Flavor,The nasi set has juicy meat and a satisfying flavor.,Positive,nasi set,Pizza e Birra,https://pergikuliner.com/restaurants/bandung/pizza-e-birra-sukajadi
+Portion Size,The portion is satisfying and well-sized.,Positive,nasi set,Pizza e Birra,https://pergikuliner.com/restaurants/bandung/pizza-e-birra-sukajadi
+Toppings,The pizza has minimal toppings and does not meet the expectation of being a 'non-jolong' (non-ordinary) pizza.,Negative,pizza,Pizza e Birra,https://pergikuliner.com/restaurants/bandung/pizza-e-birra-sukajadi
+Taste & Flavor,The taste was good and delicious with a good flavor.,Positive,chicken salted egg,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-slipi-2
+Meat Size,The meat is large and unique as it comes with a fried egg.,Positive,chicken salted egg,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-slipi-2
+Taste & Flavor,The fried egg is slightly salty but still enjoyable when served with rice.,Neutral,fried egg,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-slipi-2
+Taste & Flavor,Delicious sushi rice and salmon aburi provide a rich and satisfying flavor.,Positive,Salmon Aburi Taco Sushi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-setiabudi
+Texture,"Crispy nori and the crunch when bitten make a cracking sound, adding to the experience.",Positive,Salmon Aburi Taco Sushi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-setiabudi
+Portion Size,"The taco is large and satisfying, indicating a generous portion.",Positive,Salmon Aburi Taco Sushi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-setiabudi
+Taste & Flavor,Offers a good taste but is less preferred compared to the Salmon Aburi version.,Negative,Tempura Taco Sushi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-setiabudi
+Texture,"Crispy nori, fried tempura, and red cabbage with mayo and chili sauce provide a balanced texture.",Neutral,Tempura Taco Sushi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-setiabudi
+Taste & Flavor,"The chicken is crispy on the outside and juicy inside, with all components being delicious.",Positive,Chicken Teriyaki Teishoku,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-setiabudi
+Portion Size,"Includes crispy chicken teriyaki, fluffy rice, salad, miso soup, and Japanese pickles, suggesting a well-rounded and complete meal.",Positive,Chicken Teriyaki Teishoku,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-setiabudi
+Taste & Flavor,"The dish is described as delicious and well-prepared, indicating a strong flavor profile.",Positive,Tako Karaage,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Overall Experience,"Included among standout items, suggesting a high level of satisfaction with the dish.",Positive,Tako Karaage,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Taste & Flavor,"Praised as part of the delicious and well-prepared food, indicating good flavor.",Positive,Chicken Gyoza,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Overall Experience,"Recognized as a standout item, implying positive customer perception.",Positive,Chicken Gyoza,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Taste & Flavor,"Highlighted as a standout item, suggesting a balanced and enjoyable spicy flavor.",Positive,Spicy Edamame,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Overall Experience,"Included in the list of standout dishes, indicating high satisfaction.",Positive,Spicy Edamame,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Taste & Flavor,"Recognized as a standout item, implying a pleasant and well-balanced flavor.",Positive,Princess Roll,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Overall Experience,"Part of the praised menu, indicating positive customer feedback.",Positive,Princess Roll,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Taste & Flavor,"Included in the standout items, suggesting a flavorful and satisfying mayonnaise-based profile.",Positive,Mayonnaise Dream Roll,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Overall Experience,"Recognized as a highlight, indicating strong positive reception.",Positive,Mayonnaise Dream Roll,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Taste & Flavor,"Named as a standout item, implying a well-executed and enjoyable flavor combination.",Positive,Krakatau Roll,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Overall Experience,"Part of the praised menu, suggesting high customer satisfaction.",Positive,Krakatau Roll,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Taste & Flavor,"Included in the list of standout dishes, indicating a flavorful and well-balanced dish.",Positive,Beef Mozu Bibimbap,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Overall Experience,"Recognized as a highlight, suggesting positive customer perception.",Positive,Beef Mozu Bibimbap,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Taste & Flavor,"Praised as part of the delicious and well-prepared food, indicating good flavor and seasoning.",Positive,Nabeyaki Udon,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Overall Experience,"Included among standout items, implying a high level of satisfaction.",Positive,Nabeyaki Udon,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Taste & Flavor,"Recognized as a standout item, suggesting a tasty and well-executed flavor profile.",Positive,Chicken Katsu Teishoku,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Overall Experience,"Part of the praised menu, indicating positive customer feedback.",Positive,Chicken Katsu Teishoku,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-pondok-indah
+Texture,The soba noodles have a chewy texture and are refreshing when cold.,Positive,soba noodles,Sushi Groove,https://pergikuliner.com/restaurants/bandung/sushi-groove-sukajadi
+Broth Quality,The reviewer particularly liked the quality of the broth.,Positive,soba noodles,Sushi Groove,https://pergikuliner.com/restaurants/bandung/sushi-groove-sukajadi
+Taste,The dipping sauce is excellent.,Positive,dipping sauce,Sushi Groove,https://pergikuliner.com/restaurants/bandung/sushi-groove-sukajadi
+Taste & Flavor,The taste is highly praised with a balance of savory and sweet Japanese flavor.,Positive,gyu tamago don,Sushi Groove,https://pergikuliner.com/restaurants/bandung/sushi-groove-sukajadi
+Texture,"The boiled eggs are perfectly soft, contributing to a tender and enjoyable mouthfeel.",Positive,gyu tamago don,Sushi Groove,https://pergikuliner.com/restaurants/bandung/sushi-groove-sukajadi
+Taste & Flavor,The salmon skin adds a creamy texture and enhances the overall flavor profile.,Positive,submarine roll,Sushi Groove,https://pergikuliner.com/restaurants/bandung/sushi-groove-sukajadi
+Texture,"The inside is crunchy and delicious, providing a satisfying contrast to the softness of the roll.",Positive,submarine roll,Sushi Groove,https://pergikuliner.com/restaurants/bandung/sushi-groove-sukajadi
+Freshness,"The tuna nigiri is noted for being fresh, which is a key quality in this dish.",Positive,tuna nigiri,Sushi Groove,https://pergikuliner.com/restaurants/bandung/sushi-groove-sukajadi
+Taste & Flavor,The dish is delicious and a favorite among customers.,Positive,Chicken Curry Bimbibap,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-kelapa-gading
+Taste & Flavor,The Soft Shell Inari is very good and recommended as a must-try.,Positive,Soft Shell Inari,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-kelapa-gading
+Meat Content,The Bulgogi Sushi has too much meat and is not to their liking.,Negative,Bulgogi Sushi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-kelapa-gading
+Taste & Flavor,The taste is not very savory and lacks the authentic pizza flavor.,Negative,pizza,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-tebet
+Crust,The crust is thin and crispy at the edges.,Positive,banana nutella pizza,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-pluit
+Topping Balance,The nutella topping is balanced and doesn't overpower the natural sweetness of the banana.,Positive,banana nutella pizza,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-pluit
+Flavor Profile,The combination of sweet bananas and balanced nutella creates a harmonious flavor.,Positive,banana nutella pizza,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-pluit
+Sweetness,The milkshake is not overly sweet and retains the natural flavor of red velvet.,Positive,red velvet milkshake,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-pluit
+Texture,"The texture is not described in detail, but it is implied to be standard.",Neutral,red velvet milkshake,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-pluit
+Overall Impression,The red velvet milkshake is not particularly impressive.,Negative,red velvet milkshake,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-pluit
+Taste & Flavor,Decently tasty with a good balance of cheese and Italian-style beef peperoni.,Positive,peperoni pizza,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-kelapa-gading
+Texture,Has a tough edge that makes it hard to bite.,Negative,peperoni pizza,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-kelapa-gading
+Taste & Flavor,Fresh and tender.,Positive,chicken milanese,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-kelapa-gading
+Texture,Enjoyable with a croissant-like texture and cheese topping with oreo pieces.,Positive,smash n oreo cheese cake,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-kelapa-gading
+Missing Component,"Should have included ice cream, which was requested separately.",Negative,smash n oreo cheese cake,Pizza e Birra,https://pergikuliner.com/restaurants/jakarta/pizza-e-birra-kelapa-gading
+Taste & Flavor,The taste was good and the spiciness level was just right.,Positive,Nasi Goreng Gila,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-slipi-2
+Taste & Flavor,The dishes are suitable for people on the go and offer good taste.,Positive,Cireng,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-slipi-2
+Taste & Flavor,The taste remains unchanged and is highly recommended.,Positive,Meat Madness Classic Crust Pizza,Pizza e Birra,https://pergikuliner.com/restaurants/tangerang/pizza-e-birra-karawaci
+Ingredients,"Features beef salami, chicken ham, meatballs, and caramelized onion.",Neutral,Meat Madness Classic Crust Pizza,Pizza e Birra,https://pergikuliner.com/restaurants/tangerang/pizza-e-birra-karawaci
+Taste & Flavor,"Offers a classic Italian style with mozzarella, beef pepperoni, and olive oil.",Positive,Pepperoni Regular Classic Crust,Pizza e Birra,https://pergikuliner.com/restaurants/tangerang/pizza-e-birra-karawaci
+Overall Rating,"Rated 9/10, indicating strong satisfaction.",Positive,Pepperoni Regular Classic Crust,Pizza e Birra,https://pergikuliner.com/restaurants/tangerang/pizza-e-birra-karawaci
+Taste & Flavor,"Described as the best, with spicy beef salami, melted mozzarella, mushrooms, oregano, and dry chili.",Positive,Salame Piccante Thin Crust Pizza,Pizza e Birra,https://pergikuliner.com/restaurants/tangerang/pizza-e-birra-karawaci
+Overall Rating,"Rated 10/10, indicating exceptional quality.",Positive,Salame Piccante Thin Crust Pizza,Pizza e Birra,https://pergikuliner.com/restaurants/tangerang/pizza-e-birra-karawaci
+Taste & Flavor,The taste was very tasty and well-suited to the reviewer's taste.,Positive,salted egg chicken dish,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-gandaria
+Ingredients & Composition,"The dish features fried chicken mixed with salted egg sauce and cow's eye egg, served with separate soy sauce and bird's eye chilies.",Neutral,salted egg chicken dish,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-gandaria
+Taste & Flavor,"The cheese lover pizza was described as average, possibly because it is not a specialty item.",Negative,cheese lover pizza,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-gandaria
+Taste & Flavor,The sambal bawang has a good flavor with well-balanced spices.,Positive,sambal bawang,The People's Cafe,https://pergikuliner.com/restaurants/bandung/the-people-s-cafe-sukajadi
+Taste & Flavor,The fried sambal is also delicious.,Positive,fried sambal,The People's Cafe,https://pergikuliner.com/restaurants/bandung/the-people-s-cafe-sukajadi
+Texture,The red chili jelly has a nice texture with a filling sensation.,Positive,red chili jelly,The People's Cafe,https://pergikuliner.com/restaurants/bandung/the-people-s-cafe-sukajadi
+Texture,The soft tofu is soft and melts easily without needing to be chewed.,Positive,Soft tofu,Tokyo Belly,https://pergikuliner.com/restaurants/surabaya/tokyo-belly-tegalsari
+Taste & Flavor,"The cheese and sauce are not particularly strong, but the dish is considered reasonably priced.",Neutral,carbonara roll,Tokyo Belly,https://pergikuliner.com/restaurants/surabaya/tokyo-belly-tegalsari
+Portion Size,"The portion is small, yielding only three pieces.",Negative,carbonara roll,Tokyo Belly,https://pergikuliner.com/restaurants/surabaya/tokyo-belly-tegalsari
+Taste & Flavor,"The broth is rich, savory, and well-balanced with excellent seasoning absorption by the chicken.",Positive,Tori Karaage Ramen,Tokyo Belly,https://pergikuliner.com/restaurants/jakarta/tokyo-belly-kuningan
+Texture,"The chicken is perfectly cooked and absorbs the seasoning well, though the batter is not thick enough.",Neutral,Tori Karaage Ramen,Tokyo Belly,https://pergikuliner.com/restaurants/jakarta/tokyo-belly-kuningan
+Taste & Flavor,The vinegar-based sauce is pleasant and does not overpower the fresh ingredients.,Positive,California Roll,Tokyo Belly,https://pergikuliner.com/restaurants/jakarta/tokyo-belly-kuningan
+Texture & Structure,The roll is adequately sized and maintains its structure even when paired with soy sauce.,Positive,California Roll,Tokyo Belly,https://pergikuliner.com/restaurants/jakarta/tokyo-belly-kuningan
+Freshness of Ingredients,"Contains fresh ingredients including avocado, crabstick, cucumber, and nori.",Positive,California Roll,Tokyo Belly,https://pergikuliner.com/restaurants/jakarta/tokyo-belly-kuningan
+Taste & Flavor,The taste was similar regardless of the noodle type chosen.,Neutral,blackpaper beef ramen,Tokyo Belly,https://pergikuliner.com/restaurants/jakarta/tokyo-belly-kuningan
+Portion Size,The portion size was not particularly filling according to the reviewers.,Negative,blackpaper beef ramen,Tokyo Belly,https://pergikuliner.com/restaurants/jakarta/tokyo-belly-kuningan
+Taste & Flavor,"The dish featured a rich, savory gravy served separately with meat pieces, giving a flavorful and satisfying experience.",Positive,nasi guyur tikungan,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-thamrin
+Taste & Flavor,"The nasi goreng included beef and had a distinct aroma from kecombrang leaves, giving a unique and authentic taste.",Positive,nasi goreng SEI kecombrang,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-thamrin
+Taste & Flavor,"The mochi is highly recommended, with chocolate and matcha flavors that are not too sweet and perfectly balanced.",Positive,mochi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-thamrin
+Taste & Flavor,"The mochi is highly recommended, with chocolate and matcha flavors that are not too sweet and perfectly balanced.",Positive,chocolate mochi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-thamrin
+Taste & Flavor,"The mochi is highly recommended, with chocolate and matcha flavors that are not too sweet and perfectly balanced.",Positive,matcha mochi,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-thamrin
+Value for Money,More like home-style fried rice and not worth the 200 points spent.,Negative,Butter rice,Pizza e Birra,https://pergikuliner.com/restaurants/bandung/pizza-e-birra-sukajadi
+Taste & Flavor,"The chicken is delicious, especially the one with a runny yolk.",Positive,Chicken,Pizza e Birra,https://pergikuliner.com/restaurants/bandung/pizza-e-birra-sukajadi
+Taste & Flavor,"The Oreo cheesecake pizza is the best, with a balanced sweetness and not overly cheesy.",Positive,Oreo cheesecake pizza,Pizza e Birra,https://pergikuliner.com/restaurants/bandung/pizza-e-birra-sukajadi
+Taste & Flavor,"The matcha smoothie tastes similar to a matcha blended drink, even though it's from Sushi Groove.",Neutral,Matcha smoothie,Pizza e Birra,https://pergikuliner.com/restaurants/bandung/pizza-e-birra-sukajadi
+Taste & Flavor,Delicious with a thick filling and slightly spicy tuna sauce.,Positive,Salmon Mentai Roll,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-tebet
+Taste & Flavor,Has an unusual taste resembling Padang satay sauce with chili slices and is not recommended.,Negative,Gyoza Curry Sauce,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-tebet
+Taste & Flavor,"Highly enjoyable with fresh salmon, crunchy cucumber, salty cheese, and served with chili sauce and mayonnaise.",Positive,Salmon Cheese Roll,Sushi Groove,https://pergikuliner.com/restaurants/jakarta/sushi-groove-tebet
+Texture,The chicken geprek has a crunchy exterior.,Positive,chicken geprek,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-tebet
+Coating,The coating is non-offensive.,Positive,chicken geprek,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-tebet
+Size,The chicken geprek is large.,Positive,chicken geprek,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-tebet
+Flavor,"The lime sauce is spicy, sour, and fragrant.",Positive,lime sauce,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-tebet
+Temperature,Best eaten hot when the cheese is still melted.,Positive,double cheese sandwich,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-tebet
+Overall Enjoyment,The double cheese sandwich is also enjoyable.,Positive,double cheese sandwich,The People's Cafe,https://pergikuliner.com/restaurants/jakarta/the-people-s-cafe-tebet
+Appearance,The appearance was nice.,Positive,California roll,Tokyo Belly,https://pergikuliner.com/restaurants/surabaya/tokyo-belly-tegalsari
+Taste & Flavor,Had a unique and fresh taste.,Positive,salmon salad with wasabi,Tokyo Belly,https://pergikuliner.com/restaurants/surabaya/tokyo-belly-tegalsari
