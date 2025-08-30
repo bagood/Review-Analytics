@@ -1,7 +1,10 @@
 import pandas as pd
 import plotly.express as px
 
-def _agg_on_mentioned_data(data, column_to_agg):
+def _agg_on_mentioned_data(data: pd.DataFrame, column_to_agg: str) -> pd.DataFrame:
+    """
+    (Internal Helper) Aggregate the data related with mentioned data
+    """
     mentioned_columns = [col for col in data.columns if 'mentioned' in col]
     total_mentions = pd.DataFrame()
     for value in data[column_to_agg].unique():
@@ -17,7 +20,10 @@ def _agg_on_mentioned_data(data, column_to_agg):
  
     return total_mentions
 
-def _agg_on_sentiment_data(data, column_to_agg):
+def _agg_on_sentiment_data(data: pd.DataFrame, column_to_agg: str) -> pd.DataFrame:
+    """
+    (Internal Helper) Aggregate the data related with sentiment data
+    """
     sentiment_columns = [col for col in data.columns if 'sentiment' in col]
     total_sentiments = pd.DataFrame()
     for value in data[column_to_agg].unique():
@@ -36,16 +42,19 @@ def _agg_on_sentiment_data(data, column_to_agg):
 
     return total_sentiments
 
-def _process_and_display_sentiment_percentage(df):
+def _process_and_display_sentiment_percentage(data: pd.DataFrame) -> any:
+    """
+    (Internal Helper) Get the percentage of positive, negative, and neutral sentiments, then visualizze the data
+    """
     processed_data = []
     categories = ['Ambience', 'Food', 'Price', 'Service']
     
     for category in categories:
-        total = df[f'{category} Positive'].sum() + df[f'{category} Negative'].sum() + df[f'{category} Neutral'].sum()
+        total = data[f'{category} Positive'].sum() + data[f'{category} Negative'].sum() + data[f'{category} Neutral'].sum()
         if total > 0:
-            pos_perc = (df[f'{category} Positive'].sum() / total) * 100
-            neg_perc = (df[f'{category} Negative'].sum() / total) * 100
-            neu_perc = (df[f'{category} Neutral'].sum() / total) * 100
+            pos_perc = (data[f'{category} Positive'].sum() / total) * 100
+            neg_perc = (data[f'{category} Negative'].sum() / total) * 100
+            neu_perc = (data[f'{category} Neutral'].sum() / total) * 100
             
             processed_data.append({'Category': category, 'Sentiment': 'Positive', 'Percentage': pos_perc})
             processed_data.append({'Category': category, 'Sentiment': 'Negative', 'Percentage': neg_perc})
@@ -73,7 +82,10 @@ def _process_and_display_sentiment_percentage(df):
 
     return fig
 
-def _display_sentiments_data(data, index_filter):
+def _display_sentiments_data(data: pd.DataFrame, index_filter: str) -> (pd.DataFrame, pd.DataFrame, pd.DataFrame):
+    """
+    (Internal Helper) Create an individual data for each type of sentiments
+    """
     positive_data = data.loc[data.index.isin(index_filter), [col for col in data.columns if 'Positive' in col]]
     positive_data.columns = [col.split(' ')[0] for col in positive_data.columns]
 
@@ -85,7 +97,10 @@ def _display_sentiments_data(data, index_filter):
 
     return positive_data, negative_data, neutral_data
 
-def _display_bar_chart(data, restaurant_name):
+def _display_bar_chart(data: pd.DataFrame, restaurant_name: str) -> any:
+    """
+    (Internal Helper) Display a bar chart of the percentage of each sentiments for all menus in a restaurant 
+    """
     data_to_display = (data.loc[data['restaurant'] == restaurant_name, :] \
                             .groupby('menu')['sentiment'] \
                             .value_counts('sentiment') * 100) \

@@ -6,7 +6,16 @@ import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-def _get_url_for_all_restaurant(restaurant_name):
+def _get_url_for_all_restaurant(restaurant_name: str) -> list:
+    """
+    (Internal Helper) Utilizes the selenium to scrape the URL to all locations of the restaurant
+
+    Args:
+        restaurant_name (str): Name of the restaurant to be scraped
+    
+    Returns:
+        list: A list containing all URLs to the location for the restaurant
+    """
     driver = webdriver.Chrome()
 
     formatted_rest_name = restaurant_name.replace(' ', '+')
@@ -34,7 +43,16 @@ def _get_url_for_all_restaurant(restaurant_name):
 
     return restaurant_urls
 
-def _get_all_reviews_from_a_restaurant(url_to_restaurant):
+def _get_all_reviews_from_a_restaurant(url_to_restaurant: str) -> list:
+    """
+    (Internal Helper) Utilizes the selenium to scrape all reviews on the URL
+
+    Args:
+        url_to_restaurant (str): An URL leading to a site contining the review
+    
+    Returns:
+        list: A list containing all reviews contained on the URL
+    """    
     driver = webdriver.Chrome()
     
     driver.get(url_to_restaurant)
