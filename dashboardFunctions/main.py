@@ -4,8 +4,8 @@ import streamlit as st
 
 from helper import _agg_on_mentioned_data, _agg_on_sentiment_data, _process_and_display_sentiment_percentage, _display_sentiments_data, _display_bar_chart
 
-review_data = pd.read_csv('../database/summarized_food_review_data.csv')
-food_review_data = pd.read_csv('../database/detailed_food_review.csv')
+review_data = pd.read_csv('database/summarized_food_review_data.csv')
+food_review_data = pd.read_csv('database/detailed_food_review.csv')
 
 agg_mentioned_restaurant_name = _agg_on_mentioned_data(review_data, 'restaurant_name')
 agg_mentioned_review_source = _agg_on_mentioned_data(review_data, 'review_source')
