@@ -9,7 +9,7 @@ def get_restaurant_reviews(restaurant_name):
     all_reviews = pd.DataFrame()
 
     restaurant_urls = _get_url_for_all_restaurant(restaurant_name)
-    for rest_url in restaurant_urls[:2]:
+    for rest_url in restaurant_urls:
         all_restaurant_reviews = _get_all_reviews_from_a_restaurant(rest_url)
         temp_all_reviews = pd.DataFrame()
         temp_all_reviews['restaurant_review'] = all_restaurant_reviews
