@@ -26,7 +26,7 @@ def categorize_aspects_of_food_review(data):
     data.dropna(subset='Food - summary', inplace=True)
     all_menu_reviewed = pd.DataFrame()
 
-    for summary, restaurant, restaurant_location in zip(data['Food - summary'].values, data['review_source'].values):
+    for summary, restaurant, restaurant_location in zip(data['Food - summary'].values, data['restaurant_name'].values, data['review_source'].values):
         response = _categorize_aspects_of_food_review(summary)
 
         for menu, feedbacks in response.items():
