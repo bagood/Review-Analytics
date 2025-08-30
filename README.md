@@ -52,8 +52,8 @@ This project requires API credentials to connect to the LLM.
 Create a new file named .env in the root directory of the project.
 Open the .env file and add your credentials in the following format:
 ```
-OPENAI_API_KEY="your_api_key_here"
-CUSTOM_ENDPOINT="your_custom_endpoint_url_here"
+OPENAI_API_KEY=your_api_key_here
+CUSTOM_ENDPOINT=your_custom_endpoint_url_here
 ```
 Replace the placeholder values with your actual API key and endpoint. The application will load these variables automatically.
 
