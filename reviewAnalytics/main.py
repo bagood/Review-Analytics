@@ -5,7 +5,17 @@ simplefilter('ignore')
 
 from reviewAnalytics.helper import _summarize_and_categorize_review, _categorize_aspects_of_food_review
 
-def summarize_and_categorize_review(data, review_column):
+def summarize_and_categorize_review(data: pd.DataFrame, review_column: str) -> pd.DataFrame:
+    """
+    A pipeline for summarizing ech review category for all reviews
+
+    Args:
+        data (pd.DataFrame): A data containing all the reviews for all restaurants
+        review_column (str): The name of the column containing the review
+
+    Returns:
+        pd.DataFrame: A data cotaining the summary for all review category
+    """
     all_reviews = data[review_column].values
     review_data = pd.DataFrame()
     for review in all_reviews:
@@ -22,7 +32,16 @@ def summarize_and_categorize_review(data, review_column):
 
     return pd.merge(data, review_data, left_index=True, right_index=True, how='inner')
 
-def categorize_aspects_of_food_review(data):
+def categorize_aspects_of_food_review(data: pd.DataFrame) -> pd.DataFrame:
+    """
+    A pipeline for getting in-depth detail for each menu that has been reviewed
+
+    Args:
+        data (pd.DataFrame): A data containing the summary for each review category
+
+    Returns:
+        pd.DataFrame: A data containing in-depth review for ecah menu
+    """
     data.dropna(subset='Food - summary', inplace=True)
     all_menu_reviewed = pd.DataFrame()
 

@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-import plotly.express as px
-
 from helper import _agg_on_mentioned_data, _agg_on_sentiment_data, _process_and_display_sentiment_percentage, _display_sentiments_data, _display_bar_chart
 
 review_data = pd.read_csv('../database/summarized_food_review_data.csv')
@@ -23,12 +21,10 @@ with tab1:
     st.plotly_chart(fig_percentage)
 
     st.header('Review Aspects on A Restaurant')
-    # selected_restaurant_mention = st.selectbox("Select a Restaurant  ", review_data['restaurant_name'].unique())
     all_review_source_mention = review_data.loc[review_data['restaurant_name'] == selected_restaurant, 'review_source']
     st.dataframe(agg_mentioned_review_source.loc[agg_mentioned_review_source.index.isin(all_review_source_mention), :])
 
     st.header('Sentiments for each Review Aspects')
-    # selected_restaurant_sentiment = st.selectbox("Select a Restaurant   ", review_data['restaurant_name'].unique())
     all_review_source_sentiment = review_data.loc[review_data['restaurant_name'] == selected_restaurant, 'review_source']
     positive_data, negative_data, neutral_data = _display_sentiments_data(agg_sentiment_review_source, all_review_source_sentiment)
     st.subheader('Positive Sentiments')

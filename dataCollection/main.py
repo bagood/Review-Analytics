@@ -5,7 +5,18 @@ simplefilter('ignore')
 
 from dataCollection.helper import _get_url_for_all_restaurant, _get_all_reviews_from_a_restaurant
 
-def get_restaurant_reviews(restaurant_name):
+def get_restaurant_reviews(restaurant_name: str) -> pd.DataFrame:
+    """
+    Collect all reviews of a restaurant from (almost) all locations of the restaurant.
+
+    This scraping process is done using selenium
+
+    Args:
+        restaurant_name (str): Name of the restaurant desired to be scraped
+    
+    Returns:
+        pd.DataFrame: A pandas dataframe containing the review from the restaurant
+    """
     all_reviews = pd.DataFrame()
 
     restaurant_urls = _get_url_for_all_restaurant(restaurant_name)

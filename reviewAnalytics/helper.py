@@ -5,6 +5,9 @@ from litellm import completion
 from dotenv import load_dotenv
 
 def _get_credentials():
+    """
+    (Internal Helper) Load the crendentials required to run the LLM
+    """
     load_dotenv()
     openai_api_key = os.getenv("OPENAI_API_KEY")
     custom_endpoint = os.getenv("CUSTOM_ENDPOINT")
@@ -13,7 +16,18 @@ def _get_credentials():
 
     return custom_endpoint
 
-def _perform_completion(system_prompt, user_prompt, response_format='json_object'):
+def _perform_completion(system_prompt: str, user_prompt: str, response_format: str = 'json_object') -> any:
+    """
+    (Internal Helper) Streamlining the process of making a request to the LLM
+    
+    Args:
+      system_prompt (str): A system prompt to specify what the LLM should do
+      user_prompt (str): A query made by the user to be given to the LLM
+      response_format (str): The format of output for the LLM
+
+    Returns:
+      any: A JSON formatted value of the response from the LLM
+    """
     custom_endpoint = _get_credentials()
 
     response = completion(
@@ -34,7 +48,10 @@ def _perform_completion(system_prompt, user_prompt, response_format='json_object
 
     return json.loads(response.choices[0].message.content)
 
-def _summarize_and_categorize_review(user_prompt):
+def _summarize_and_categorize_review(user_prompt: str) -> any:
+    """
+    (Internal Helper) Utilize the LLM to get the summary for each review category
+    """
     system_prompt = """
     You are a specialized AI model for restaurant review analysis, capable of processing reviews written in both **English and Indonesian**.
 
@@ -59,7 +76,10 @@ def _summarize_and_categorize_review(user_prompt):
 
     return response
 
-def _categorize_aspects_of_food_review(user_prompt):
+def _categorize_aspects_of_food_review(user_prompt: str) -> any:
+    """
+    (Internal Helper) Utilize the LLM to get detailed review for each menu getting reviewed
+    """
     system_prompt_1 = """
     You are an AI assistant that extracts menu items from a text. Read the review and identify all unique food and drink items mentioned.
 
