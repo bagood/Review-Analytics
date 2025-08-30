@@ -7,3 +7,6 @@ __pycache__/
 .env
 
 workspace/
+
+food_review_data.csv
+summarized_food_review_data.csv
